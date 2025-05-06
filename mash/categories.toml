@@ -1,0 +1,24 @@
+attire = [
+  "Comfy PJs",
+  "Dress Up Fancy",
+  "Dress Up Costume",
+  "Casual Clothes",
+]
+foods = [
+  "New Restaurant in Canary Wharf",
+  "New Restaurant out of Canary Wharf",
+  "Old Faithful (revisit)",
+  "Completely new food",
+]
+drinks = [
+  "Soft Only",
+  "Beer and Wine",
+  "Cocktails",
+  "Water and Coffee",
+]
+entertainment = [
+  "Cinema",
+  "Home Films/TV",
+  "Home Games (video or board)",
+  "Home Crafts",
+]
