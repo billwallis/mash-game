@@ -11,6 +11,9 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
 
+[project.scripts]
+mash = "mash.main:main"
+
 [dependency-groups]
 dev = [
     "coverage-badge>=1.1.0",
