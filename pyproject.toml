@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python-template"
+name = "mash-game"
 version = "0.0.0"
 description = ""
 authors = [{name = "Bilbottom"}]
@@ -23,15 +23,11 @@ test = [
 
 
 [tool.setuptools]
-packages = ["src"]
-
-# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
-#[tool.setuptools.packages.find]
-#include = ["src"]
+packages = ["mash"]
 
 
 [tool.pytest.ini_options]
-addopts = "--cov=src --cov-fail-under=80"
+addopts = "--cov=mash --cov-fail-under=80"
 testpaths = ["tests"]
 
 

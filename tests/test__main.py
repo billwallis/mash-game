@@ -1,8 +1,8 @@
 """
-Unit tests for the ``src.main`` module.
+Unit tests for the ``mash.main`` module.
 """
 
-from src import main
+from mash import main
 
 
 def test__main():
