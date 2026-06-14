@@ -10,7 +10,7 @@ from typing import Any
 HERE = pathlib.Path(__file__).parent
 
 
-def _print_results(results: dict[str:Any]):
+def _print_results(results: dict[str, Any]) -> None:
     """
     Print the results of the game.
     """
@@ -20,7 +20,7 @@ def _print_results(results: dict[str:Any]):
         print(f"{category.rjust(cat_len)}: {option}")
 
 
-def main() -> None:
+def main() -> int:
     """
     Entry point into the module.
     """
@@ -34,6 +34,8 @@ def main() -> None:
     }
     _print_results(results)
 
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
